@@ -41,19 +41,19 @@ export default function Features() {
       <ul className={styles.features_options}>
         <li
           onClick={() => handleOptionChange(0)}
-          className={currentOption === 0 && styles.selected}
+          className={currentOption === 0 ? styles.selected : null}
         >
           Simple Bookmarking
         </li>
         <li
           onClick={() => handleOptionChange(1)}
-          className={currentOption === 1 && styles.selected}
+          className={currentOption === 1 ? styles.selected : null}
         >
           Speedy Searching
         </li>
         <li
           onClick={() => handleOptionChange(2)}
-          className={currentOption === 2 && styles.selected}
+          className={currentOption === 2 ? styles.selected : null}
         >
           Easy Sharing
         </li>
@@ -61,20 +61,22 @@ export default function Features() {
       {options.map((option, id) => {
         if (id === currentOption)
           return (
-            <div className={styles.features_option}>
-              <div className={styles.features_image}>
-                <Image
-                  src={`/images/illustration-features-tab-${id + 1}.svg`}
-                  alt="illustration-features-tab-1"
-                  width={option.imageWidth}
-                  height={option.imageHeight}
-                />
-                <div className={styles.bg_shape}></div>
-              </div>
-              <div className={styles.features_option_content}>
-                <h2>{option.title}</h2>
-                <p>{option.body}</p>
-                <a href="#">More Info</a>
+            <div className={styles.features_option} key={id}>
+              <div className={styles.bg_shape}></div>
+              <div className={styles.features_option_container}>
+                <div className={styles.features_image}>
+                  <Image
+                    src={`/images/illustration-features-tab-${id + 1}.svg`}
+                    alt="illustration-features-tab-1"
+                    width={option.imageWidth}
+                    height={option.imageHeight}
+                  />
+                </div>
+                <div className={styles.features_option_content}>
+                  <h2>{option.title}</h2>
+                  <p>{option.body}</p>
+                  <a href="#">More Info</a>
+                </div>
               </div>
             </div>
           );
