@@ -90,17 +90,20 @@
 }
 .bg_shape {
   position: absolute;
-  border-bottom-right-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom-right-radius: 500px;
+  border-top-right-radius: 500px;
   z-index: -1;
   left: 0;
-  top: 15%;
+  top: 70px;
   width: 65%;
   height: 250px;
   background: #5266df;
 }
 
 @media screen and (min-width: 1200px) {
+  .features {
+    margin: 100px auto;
+  }
   .features_content p {
     max-width: 500px;
     margin: auto;
@@ -142,5 +145,13 @@
     width: 45%;
     top: auto;
     bottom: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bg_shape {
+    width: 65%;
+    height: 200px;
+    top: 60px;
   }
 }

@@ -5,22 +5,19 @@ export default function Features() {
   const options = [
     {
       title: "Bookmark in one click",
-      body:
-        "Organize your bookmarks however you like. Out simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
+      body: "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
       imageWidth: 536,
       imageHeight: 346,
     },
     {
       title: "Speedy Searching",
-      body:
-        "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
+      body: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
       imageWidth: 478,
       imageHeight: 416,
     },
     {
       title: "Share your bookmarks",
-      body:
-        "Esily share your bookmarks and collections with others. Create a shareable link that can send at the click of a button.",
+      body: "Easily share your bookmarks and collections with others. Create a shareable link that can send at the click of a button.",
       imageWidth: 440,
       imageHeight: 380,
     },
