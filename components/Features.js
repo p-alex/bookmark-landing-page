@@ -25,7 +25,7 @@ export default function Features() {
   const [currentOption, setCurrentOption] = useState(0);
   const handleOptionChange = (option) => setCurrentOption(option);
   return (
-    <section className={styles.features}>
+    <section className={styles.features} id="features">
       <div className={styles.features_content}>
         <h1>Features</h1>
         <p>

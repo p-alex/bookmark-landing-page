@@ -14,7 +14,7 @@ export default function MobileNavBar() {
 
   return (
     <nav className={styles.navbar}>
-      {toggle ? <MobileNavBarMenu /> : null}
+      {toggle ? <MobileNavBarMenu setToggle={setToggle} /> : null}
       <div className={toggle ? styles.logo + " " + styles.hide : styles.logo}>
         <Image
           src={"/images/logo-bookmark.svg"}

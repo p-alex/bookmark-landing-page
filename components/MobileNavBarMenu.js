@@ -1,6 +1,8 @@
+import { useState } from "react";
 import Image from "next/image";
 import styles from "../styles/MobileNavBarMenu.module.css";
 export default function MobileNavBarMenu() {
+  const [clicked, setClicked] = useState(true);
   return (
     <div className={styles.menu}>
       <div className={styles.menu_container}>
@@ -12,7 +14,7 @@ export default function MobileNavBarMenu() {
         />
         <ul className={styles.links}>
           <li>
-            <a href="/">Features</a>
+            <a href="#features">Features</a>
           </li>
           <li>
             <a href="/">Pricing</a>
