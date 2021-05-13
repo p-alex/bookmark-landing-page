@@ -34,13 +34,13 @@
 .hero_content h1 {
   color: #282634;
   font-weight: 500;
-  font-size: 2rem;
-  margin-bottom: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
 }
 .hero_content p {
   position: relative;
   color: #9fa0a5;
-  max-width: 300px;
+  max-width: 450px;
   line-height: 1.8rem;
 }
 .hero_call_to_action {
