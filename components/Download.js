@@ -19,34 +19,38 @@ export default function Download() {
     },
   ];
   return (
-    <section className={styles.download}>
-      <div className={styles.content}>
-        <h1>Download the extension</h1>
-        <p>
-          We've got more browsers in the pipeline. Please do let us know if
-          you've got a favourite you'd like us to prioritize.
-        </p>
-      </div>
-      <div className={styles.cards}>
-        {cards.map((card) => (
-          <div className={styles.card}>
-            <Image
-              src={`/images/${card.image}`}
-              width={100}
-              height={102}
-              alt={card.image}
-            />
-            <h2>{card.title}</h2>
-            <p>{card.version}</p>
-            <div
-              className={styles.btn_container}
-              style={{ backgroundImage: "url(/images/bg-dots.svg)" }}
-            >
-              <a href="#">Add & Install Extenstion</a>
+    <>
+      <section className={styles.download}>
+        <div className={styles.content}>
+          <h1>Download the extension</h1>
+          <p>
+            We've got more browsers in the pipeline. Please do let us know if
+            you've got a favourite you'd like us to prioritize.
+          </p>
+        </div>
+        <div className={styles.cards}>
+          {cards.map((card) => (
+            <div className={styles.card}>
+              <Image
+                src={`/images/${card.image}`}
+                width={100}
+                height={102}
+                alt={card.image}
+              />
+              <h2>{card.title}</h2>
+              <p>{card.version}</p>
+              <div
+                className={styles.btn_container}
+                style={{ backgroundImage: "url(/images/bg-dots.svg)" }}
+              >
+                <a href="#">Add & Install Extension</a>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
+          ))}
+        </div>
+      </section>
+
+      <div></div>
+    </>
   );
 }
