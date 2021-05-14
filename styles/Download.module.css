@@ -1,7 +1,7 @@
 .download {
   position: relative;
   width: 90%;
-  margin: auto;
+  margin: 200px auto;
 }
 .content {
   max-width: 500px;
@@ -66,6 +66,7 @@
 @media screen and (min-width: 1200px) {
   .download {
     width: 1100px;
+    margin: 150px auto;
   }
   .cards {
     display: grid;

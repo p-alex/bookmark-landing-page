@@ -30,7 +30,7 @@ export default function Download() {
         </div>
         <div className={styles.cards}>
           {cards.map((card) => (
-            <div className={styles.card}>
+            <div className={styles.card} key={card.title}>
               <Image
                 src={`/images/${card.image}`}
                 width={100}
