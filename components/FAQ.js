@@ -63,6 +63,10 @@ export default function FAQ() {
           </div>
         ))}
       </div>
+
+      <div className={styles.more_info}>
+        <a href="#">More Info</a>
+      </div>
     </section>
   );
 }
