@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Download from "../components/Download";
 import FAQ from "../components/FAQ";
+import Newsletter from "../components/Newsletter";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <Features />
       <Download />
       <FAQ />
+      <Newsletter />
     </>
   );
 }

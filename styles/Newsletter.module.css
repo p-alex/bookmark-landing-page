@@ -1,0 +1,70 @@
+.newsletter {
+  width: 100%;
+  background: #5268e2;
+  padding: 80px 0 60px 0;
+}
+.newsletter_container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.newsletter_container span {
+  color: #fff;
+  letter-spacing: 8px;
+  font-weight: 500;
+}
+
+.newsletter_container h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  margin: 40px 0;
+}
+.newsletter_container form {
+  display: flex;
+  justify-content: space-between;
+}
+.input_container {
+  display: block;
+  width: 70%;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  text-align: left;
+  background: transparent;
+  height: 78px;
+}
+.input_container p {
+  font-size: 12px;
+  padding: 5px;
+  color: white;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.input_container input {
+  width: 100%;
+  padding: 15px;
+  border: solid transparent 2px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.newsletter_container form button {
+  width: 25%;
+  height: 49px;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  background: #fc5e5f;
+  border: solid #fc5e5f 2px;
+  cursor: pointer;
+}
+
+.newsletter_container form button:hover {
+  background: #fff;
+  color: #fc5e5f;
+}
