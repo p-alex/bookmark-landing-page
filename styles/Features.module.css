@@ -13,7 +13,7 @@
 .features_content p {
   color: #9fa0a5;
   line-height: 1.8rem;
-  max-width: 450px;
+  max-width: 90%;
   margin: auto;
 }
 .features_options {
@@ -57,7 +57,7 @@
 .features_option_content p {
   color: #9fa0a5;
   line-height: 1.8rem;
-  max-width: 450px;
+  max-width: 90%;
   margin: auto;
 }
 .features_option_content a {
@@ -103,13 +103,12 @@
   height: 250px;
   background: #5266df;
 }
-
 @media screen and (min-width: 1200px) {
   .features {
     margin: 100px auto;
   }
   .features_content p {
-    max-width: 500px;
+    max-width: 450px;
     margin: auto;
   }
   .features_options {
@@ -139,7 +138,7 @@
     margin-top: 0;
   }
   .features_option_content p {
-    width: auto;
+    max-width: 450px;
     margin: 0;
   }
   .features_option_content a {
@@ -151,11 +150,10 @@
     bottom: 0;
   }
 }
-
 @media screen and (max-width: 400px) {
   .bg_shape {
     width: 65%;
-    height: 200px;
+    height: 150px;
     top: 60px;
   }
 }

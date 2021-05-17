@@ -77,7 +77,6 @@
   border: solid #84828d 2px;
   color: #84828d;
 }
-
 @media screen and (min-width: 1200px) {
   .hero {
     margin: 0 auto 150px auto;
@@ -92,13 +91,18 @@
     align-items: flex-start;
     text-align: left;
     margin: 0;
+    margin-bottom: 50px;
+  }
+  .hero_image {
+    width: 100%;
+    position: relative;
+    right: -35px;
   }
   .bg_shape {
     width: 45%;
     top: 130px;
   }
 }
-
 @media screen and (max-width: 400px) {
   .bg_shape {
     width: 65%;

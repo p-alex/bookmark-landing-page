@@ -2,7 +2,6 @@ import { useState } from "react";
 import styles from "../styles/Newsletter.module.css";
 export default function Newsletter() {
   const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
   const [feedback, setFeedBack] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -10,12 +9,10 @@ export default function Newsletter() {
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (re.test(email.toLowerCase())) {
       setEmail("");
-      setError("");
       setFeedBack("Thank you");
     } else {
       setEmail("");
-      setFeedBack("");
-      setError("Whoops, make sure it's an email");
+      setFeedBack("Whoops, make sure it's an email");
     }
   };
   return (
@@ -26,13 +23,7 @@ export default function Newsletter() {
         <form onSubmit={handleSubmit}>
           <div
             className={styles.input_container}
-            style={
-              error
-                ? { background: "#fc5e5f" }
-                : feedback
-                ? { background: "#fc5e5f" }
-                : null
-            }
+            style={feedback ? { background: "#fc5e5f" } : null}
           >
             <input
               type="text"
@@ -41,10 +32,8 @@ export default function Newsletter() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            {error ? <p>{error}</p> : null}
             {feedback !== "" ? <p>{feedback}</p> : null}
           </div>
-
           <button type="submit">Contact Us</button>
         </form>
       </div>

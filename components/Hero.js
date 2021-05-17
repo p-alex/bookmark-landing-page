@@ -8,8 +8,8 @@ export default function Hero() {
         <div className={styles.hero_image}>
           <Image
             src="/images/illustration-hero.svg"
-            width={636}
-            height={446}
+            width={657}
+            height={466}
             alt="hero-image"
           />
         </div>

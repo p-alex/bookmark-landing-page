@@ -61,7 +61,6 @@
   transform: rotate(-45deg) translate(15px, 15px);
   background: white;
 }
-
 @media screen and (min-width: 1200px) {
   .navbar {
     display: none;

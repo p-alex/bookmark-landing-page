@@ -12,14 +12,14 @@ export default function Features() {
     {
       title: "Speedy Searching",
       body: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
-      imageWidth: 478,
-      imageHeight: 416,
+      imageWidth: 418,
+      imageHeight: 346,
     },
     {
       title: "Share your bookmarks",
       body: "Easily share your bookmarks and collections with others. Create a shareable link that can send at the click of a button.",
-      imageWidth: 440,
-      imageHeight: 380,
+      imageWidth: 400,
+      imageHeight: 346,
     },
   ];
   const [currentOption, setCurrentOption] = useState(0);
