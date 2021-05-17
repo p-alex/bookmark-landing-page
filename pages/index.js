@@ -5,6 +5,7 @@ import Features from "../components/Features";
 import Download from "../components/Download";
 import FAQ from "../components/FAQ";
 import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <Download />
       <FAQ />
       <Newsletter />
+      <Footer />
     </>
   );
 }
