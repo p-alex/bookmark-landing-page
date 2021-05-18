@@ -57,7 +57,7 @@
 .features_option_content p {
   color: #9fa0a5;
   line-height: 1.8rem;
-  max-width: 90%;
+  max-width: 450px;
   margin: auto;
 }
 .features_option_content a {
@@ -98,7 +98,7 @@
   border-top-right-radius: 500px;
   z-index: -1;
   left: 0;
-  top: 70px;
+  bottom: 200px;
   width: 65%;
   height: 250px;
   background: #5266df;
@@ -106,6 +106,9 @@
 @media screen and (min-width: 1200px) {
   .features {
     margin: 100px auto;
+  }
+  .features_image {
+    width: 600px;
   }
   .features_content p {
     max-width: 450px;
@@ -146,8 +149,7 @@
   }
   .bg_shape {
     width: 45%;
-    top: auto;
-    bottom: 0;
+    top: 195px;
   }
 }
 @media screen and (max-width: 400px) {

@@ -6,20 +6,20 @@ export default function Features() {
     {
       title: "Bookmark in one click",
       body: "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.",
-      imageWidth: 536,
-      imageHeight: 346,
+      imageWidth: 566,
+      imageHeight: 366,
     },
     {
       title: "Speedy Searching",
       body: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
-      imageWidth: 418,
-      imageHeight: 346,
+      imageWidth: 438,
+      imageHeight: 366,
     },
     {
       title: "Share your bookmarks",
       body: "Easily share your bookmarks and collections with others. Create a shareable link that can send at the click of a button.",
-      imageWidth: 400,
-      imageHeight: 346,
+      imageWidth: 420,
+      imageHeight: 366,
     },
   ];
   const [currentOption, setCurrentOption] = useState(0);

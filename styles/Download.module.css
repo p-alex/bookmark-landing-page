@@ -17,6 +17,8 @@
 .content p {
   color: #9fa0a5;
   line-height: 1.8rem;
+  max-width: 450px;
+  margin: auto;
 }
 .cards {
   width: 100%;

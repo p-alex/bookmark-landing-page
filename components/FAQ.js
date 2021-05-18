@@ -23,9 +23,7 @@ export default function FAQ() {
         "Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit. More Info 35,000+ already joined Stay up-to-date with what we’re doing Contact Us Features Pricing Contact",
     },
   ];
-  const [currentFaqToggle, setCurrentFaqToggle] = useState(
-    "How can I request a new browser?"
-  );
+  const [currentFaqToggle, setCurrentFaqToggle] = useState("");
   const handleToggle = (question) => {
     if (question === currentFaqToggle) {
       setCurrentFaqToggle("");
