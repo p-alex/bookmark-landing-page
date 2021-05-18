@@ -37,10 +37,11 @@
 }
 .input_container p {
   font-size: 12px;
-  padding: 5px;
+  padding: 5px 10px;
   color: white;
   font-weight: 500;
   margin-top: 2px;
+  animation: opacity 300ms;
 }
 .input_container input {
   width: 100%;
@@ -83,5 +84,13 @@
   }
   .input_container {
     width: 75%;
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

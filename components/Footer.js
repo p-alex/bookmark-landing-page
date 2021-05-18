@@ -34,7 +34,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            Front End Mentor
+            Frontend Mentor
           </a>
           . Coded by{" "}
           <a
