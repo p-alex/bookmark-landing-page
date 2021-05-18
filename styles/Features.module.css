@@ -152,11 +152,11 @@
     top: 220px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .bg_shape {
     width: 65%;
-    height: 38%;
-    top: 12%;
+    height: 33%;
+    top: 22%;
   }
   .features_content p {
     width: 90%;
