@@ -26,6 +26,27 @@ export default function Footer() {
           <img src="/images/icon-twitter.svg" alt="twitter" />
         </div>
       </div>
+      <div className={styles.credit}>
+        <small>
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io/solutions"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Front End Mentor
+          </a>
+          . Coded by{" "}
+          <a
+            href="https://www.frontendmentor.io/profile/p-alex"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Alex Daniel
+          </a>
+          .
+        </small>
+      </div>
     </footer>
   );
 }

@@ -42,7 +42,6 @@ export default function FAQ() {
           answered please feel free to email us.
         </p>
       </div>
-
       <div className={styles.FAQs_container}>
         {faqs.map((faq) => (
           <div key={faq.question} className={styles.faq}>
@@ -63,7 +62,6 @@ export default function FAQ() {
           </div>
         ))}
       </div>
-
       <div className={styles.more_info}>
         <a href="#">More Info</a>
       </div>

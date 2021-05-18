@@ -34,7 +34,6 @@ export default function Features() {
           them on the go.
         </p>
       </div>
-
       <ul className={styles.features_options}>
         <li
           onClick={() => handleOptionChange(0)}
