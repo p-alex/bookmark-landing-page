@@ -19,7 +19,7 @@
   border-top-left-radius: 100px;
   z-index: -1;
   right: 0;
-  top: 70px;
+  bottom: 300px;
   width: 65%;
   height: 250px;
   background: #5266df;
@@ -99,7 +99,7 @@
     right: -35px;
   }
   .bg_shape {
-    width: 45%;
+    width: 44%;
     top: 175px;
   }
 }

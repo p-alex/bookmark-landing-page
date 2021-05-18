@@ -13,7 +13,7 @@
 .features_content p {
   color: #9fa0a5;
   line-height: 1.8rem;
-  max-width: 90%;
+  max-width: 450px;
   margin: auto;
 }
 .features_options {
@@ -148,14 +148,17 @@
     display: inline-block;
   }
   .bg_shape {
-    width: 45%;
-    top: 195px;
+    width: 47%;
+    top: 220px;
   }
 }
 @media screen and (max-width: 400px) {
   .bg_shape {
     width: 65%;
-    height: 150px;
-    top: 60px;
+    height: 38%;
+    top: 12%;
+  }
+  .features_content p {
+    width: 90%;
   }
 }
