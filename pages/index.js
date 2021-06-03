@@ -1,3 +1,4 @@
+import Head from "next/head";
 import MobileNavBar from "../components/MobileNavBar";
 import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
@@ -9,6 +10,10 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Bookmark Landing Page | Frontend Mentor Challenge</title>
+        <link rel="icon" type="image/png" href="/images/favicon-32x32.png" />
+      </Head>
       <MobileNavBar />
       <NavBar />
       <Hero />
